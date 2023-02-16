@@ -1,5 +1,6 @@
 {
   "name": "calendar",
+  "homepage": "https://github.com/YellowBlueVase/react-mesto-api-full.git/frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
