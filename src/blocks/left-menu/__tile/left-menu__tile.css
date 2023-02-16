@@ -1,0 +1,15 @@
+.left-menu__tile {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.left-menu__tile:hover {
+    background-color: #0062FF;
+}

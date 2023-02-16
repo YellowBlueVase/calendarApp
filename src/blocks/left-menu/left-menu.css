@@ -1,0 +1,15 @@
+.left-menu {
+    width: 55px;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+    margin: auto;
+}
+
+@media all and (min-width: 73px) {
+    .left-menu {
+        max-width: 73px;
+    }
+}

@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App';
+import {HashRouter} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+
+// const http = require('http');
+// const server = http.createServer((request, response) => {
+//   console.log('Пришел запрос')
+// });
+// server.listen(3000);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <HashRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
